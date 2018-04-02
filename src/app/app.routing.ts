@@ -5,6 +5,7 @@ import { AboutComponent }   from './about/about.component';
 import { MarketplaceComponent }   from './marketplace/marketplace.component';
 import { AlbumDetailComponent }   from './album-detail/album-detail.component';
 import { TradeComponent }   from './trade/trade.component';
+import { AdminComponent }   from './admin/admin.component';
 
 
 const appRoutes: Routes = [
@@ -27,6 +28,10 @@ const appRoutes: Routes = [
   {
   path: 'trade/:id',
   component: TradeComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
