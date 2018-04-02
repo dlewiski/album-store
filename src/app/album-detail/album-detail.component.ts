@@ -29,7 +29,7 @@ export class AlbumDetailComponent implements OnInit {
   }
 
   goToMarketPlace() {
-  this.router.navigate('marketplace');
+  this.router.navigate(['marketplace']);
   }
 
 }
