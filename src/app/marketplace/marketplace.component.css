@@ -1,0 +1,8 @@
+.selectedAlbum:hover {
+  cursor: grab;
+  display: in;
+}
+
+.panel:hover{
+  background-color: gold;
+}
